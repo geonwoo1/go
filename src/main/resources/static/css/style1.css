@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+#container{
+  margin: 0 auto;
+  width: 1200px;
+}
+header{
+ 
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(209, 70, 70, 0.952);
+  overflow: visible;
+  }
+
+#logo-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-right: 10px; /* 글자 로고와 이미지 로고 사이의 간격 조정 */
+}
+
+#logo a h1 {
+  color: #f1c50e; /* 글자 로고의 색상을 f1c50e로 지정 */
+}
+
+#logo2 {
+  display: flex;
+  align-items: center;
+
+
+}
+
+#logo2 img {
+  width: 100px;
+  height: 100px;
+  margin-left: 5px; /* 이미지 로고와 텍스트 사이의 간격 조정 */
+}
+
+ nav {
+    position: absolute; /* nav를 header 내부에 위치시킴 */
+    top: 50%; /* header의 중앙으로 정렬하기 위해 top 값을 50%로 설정 */
+    transform: translateY(-50%); /* nav를 수직으로 중앙 정렬하기 위해 translateY로 이동시킴 */
+    right: 0; /* header 오른쪽에 위치시키기 위해 right 값을 0으로 설정 */
+    width: 900px;
+    height: 100px;
+    /* background-color: green; */
+    padding-top: 40px;
+  }
+
+ 
+
+  
+  #searchContainer {
+  
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* 검색창 틀의 배경색 */
+    padding: 10px;
+    height: 50px;
+    width: 270px;
+    border:3px solid #f1c50e;
+    margin-left: 200px;
+    position: relative;
+    
+   
+  }
+  
+  #searchContainer input[type="text"] {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  #searchContainer input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+
+  #searchContainer input[type="text"]::placeholder {
+    font-size: 18px;
+  }
+
+  #searchContainer img {
+    float: right;
+    width: 20px;
+    height: 20px
+}
+
+
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 100px;
+  /* background-color: gray; */
+  border-top: 2px solid  rgba(209, 70, 70, 0.952);
+}
+#bottomMenu{
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+#bottomMenu ul{
+  margin-top: 15px;
+}
+#bottomMenu ul li{
+  float: left;
+  padding: 5px 20px;
+  border-right: 1px solid #ddd;
+}
+#bottomMenu ul li:last-child{
+  border-right: none;
+}
+#bottomMenu ul li a, #bottomMenu ul li a:visited{
+  font-size: 15px;
+  color: #666;
+}
+#sns{
+  position: absolute;
+  right: 0;
+}
+#sns ul li{
+  border: none;
+  padding: 5px;
+}
+#company{
+  clear: both;/*left도 가능*/
+  margin-top: 25px;
+  margin-left: 20px;
+}
+p{
+  font-size: 14px;
+  color: #aaa;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  float: right;
+  align-content: center;
+  margin-right: 30px;
+}
